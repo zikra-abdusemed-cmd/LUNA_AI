@@ -14,6 +14,7 @@ void main() async {
 
   await Supabase.initialize(
     url: 'https://zwysjndgjqtozyzpxgwn.supabase.co',
+    anonKey: 'sb_secret_4xR1HLtvuhpmdHbd1DYGvw_njBpB-uw',
   );
 
   runApp(const ProviderScope(child: LunaApp()));
